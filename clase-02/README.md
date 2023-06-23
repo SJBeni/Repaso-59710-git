@@ -52,3 +52,35 @@ Y luego hago el amend
 
 * Staged: Archivos que estan confirmados para ser un proximo commit.
 
+## GIT LOG
+
+### Me muestra una cantidad especifica de commit
+
+    git log --help
+
+> Me muestra los ultimos 2 commits
+
+    git log -2
+
+> Me muestra los commit por 
+
+    git log --since = "2022-05-01"
+    git log --after = "2022-06-01"
+    git log --before = "2022-05-01"
+    git log --after = "2022-05-01" --before="2022-05-10"
+
+## GIT RAMAS (Branchs)
+    
+> Crear una rama
+
+    git branch <nombre-rama>
+    git branch dev
+
+> Moverme entre ramas
+
+    git switch <nombre-rama>
+    git switch dev
+
+> Para ver las ramas
+
+    git branch
